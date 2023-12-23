@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Grades {
-	static Scanner sn =new Scanner(System.in);
+	static Scanner sn = new Scanner(System.in);
 	
 	public static double homework(int hwWeight) {
 		System.out.println("Homework:");

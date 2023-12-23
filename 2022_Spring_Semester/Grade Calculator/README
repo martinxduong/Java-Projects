@@ -1,0 +1,5 @@
+Grades.java README
+
+Objective: Practice using Java variables and expressions for interactive programming and writing methods. Users will provide some information about their performance during the semester.
+The program will then output the students' weighted semester average.
+The program accepts the following input for grade calculations: exam weights, homework weight, number of assignments, average home work grade, late days, lab attended.

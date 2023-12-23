@@ -1,0 +1,12 @@
+Uppfora.java README:
+
+Objective: create the ancient Nordic two-player game of Uppfora. The program will simulate the game by having the user play against the computer.
+
+Rules:
+ - Each round, players will chose a move, they can either be Skadis, Tjusig, Klyket, Hovolm, or Pershult.
+ - Pershult beats Klyket, Skadis
+ - Klyket beats Tjusig, Hovolm
+ - Tjusig beats Pershult, Skadis
+ - Skadis beats Hovolm, Klyket
+ - Hovolm beats Pershult, Tjusig
+ - The computer wins in the event of a tie.

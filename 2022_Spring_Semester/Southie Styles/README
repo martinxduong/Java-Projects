@@ -1,0 +1,14 @@
+Jaws.java README
+
+Objective: Given a .txt file of the script of the movie Jaws, write a program that reads the script from the file, convert the text to its equivalent in a Southie accent
+and write the converted text to an output file. 
+
+Southie Accent Rules:
+ - If there is an 'r' following a vowel, replace 'r' with 'h'
+ - If a word ends in 'a, append an 'r'
+ - Replace the word 'very' with the word 'wicked'
+
+Exceptions:
+ - If 'r' is at the end of a word and is preceded by 'ee' or 'i' replace 'r' with 'yah' instead of 'h'
+ - If 'r' is at the end of a word and is preceded by 'oo' replace 'r' with 'wah'
+
