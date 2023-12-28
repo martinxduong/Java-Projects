@@ -1,0 +1,11 @@
+car.java carMain.java fraction.java fractionMain.java README
+
+Car Objective: implement a class car containing the fields: make, model, year, MPG, milesDriven, fuelCapacity, and fuelRemaining. 
+Implement the following methods within the car class:
+ - A constructor that initializes each of the fields
+ - fillTank (double g): adds up to g gallons of gas to the fuel tank, but not more than the car's fuel fuelCapacity
+ - drive(double m): simulates drivbing m miles in the car, adding the total number of miles driven, and reducing the amount of gas in the car according to the MPG
+ - toString(): returns a string representation of the car
+ - getFuelRemaining(): returns the amount of fuel left in the tank
+
+Fraction Objective: write a class used to represent fractions. It should contain fields for numerator and demoninator. It should be able to perform arithmetic operations
