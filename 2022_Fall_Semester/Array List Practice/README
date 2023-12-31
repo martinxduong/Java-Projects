@@ -1,0 +1,19 @@
+ArrayListHW.java README
+
+Objective: Write static methods that use lists and strings.
+
+unique(): takes in a list and returns true if all items in the List are unique. All the items are unique if none of them are the same, otherwise return false.
+
+allMultiples(): takes in a list of integers and an integer. The method returns a new list of integers which contains all of the numbers from the list
+that are multiples of the given integer.
+
+allStringOfSize(): takes in a List<String> and an int length. The method returns a new List<String> that contains all the strings from the original list that 
+are of length character long.
+
+isPermutation(): takes in two list objects that contain the same type. It returns true if the list are permutations of each other and false if not. Two lists are permutations
+of each other if they contain the same element, including the same number of duplicate, but they do not have to contain the elemetns in the same order.
+
+stringToListOfWords(): takes in a string and converts it into a list of words. For this method, assume that each word in the input string is separated by whitespace.
+
+removeAllInstances(): takes a list and item. The method then removes each item in the list that matches the given item.
+
