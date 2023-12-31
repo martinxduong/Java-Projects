@@ -1,0 +1,18 @@
+Fox and Rabbit README
+
+Objective: Given a program of a fox hunting a rabbit in a small field represented by 2D grid, the objective is to change the program so that
+the rabbit survives to 100 turns. The rabbit has a constructor Rabbit(model, row, column) and a method decideMove(), which decides how the rabbit
+is going to move at each turn. The only rule for this project is that we can only modify Rabbit.java
+
+Model.java : holds the rules of the game and handles how the pieces interact with each other. This file makes the board, places the fox, the rabit, and a 
+number of Bush objects
+Model Class :
+ - places the fox, rabbit, and bushes onto the 2D grid
+ - gives the rabit and the fox each a chance to move
+ - tells the view to display the results of the two moves and determines which animal won
+
+View.java : holds the code for what the user sees. View.java shows the gameboard.
+
+Controller.java : holds the code to run the simulator. Controller.java tells the model when to start and stop the program.
+
+RabbitHunt.java : holds the main method and instansiates Model, View, and Controller objects, and turns control over to the Controller object.
