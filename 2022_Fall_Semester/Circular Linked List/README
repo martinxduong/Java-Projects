@@ -1,0 +1,5 @@
+CircularLinkedList.java README
+
+Objective: soldiers form a circle and count around the circle some predetermined number. When this number is reached, that person receives a lot and leaves the circle.
+The count starts over with the next person. Build a circular linked list to represent the circle of people and simulate the problem. The program should use two parameters,
+n people and k, where k is the number of counts. 
