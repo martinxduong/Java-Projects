@@ -1,0 +1,14 @@
+Maze Solving README
+
+Objective: create a basic maze solving algorithm to find it's way from the top left corner of the maze to the bottom right. To do so, implement solveMaze() method
+to perform a depth-first search using a stack. When you have a choice in what direction to travel, make a choice, follow that corridor and chose a new branch to go down
+as needed. If you reach a dead end, back up until there is a new route to explore.
+
+Maze.java: the method creates the MazeGridPanel and passes in parameters to set up how large of a maze you want.
+
+MazeGridPanel.java: this method holds the maze, the maze is held in a 2D array of cell objects. solveMaze() method is how you solve the maze and genDFSMaze() is extra credit.
+solveMazeQueue() solves the maze using breadth-first search and visted() will check if the cell at row or col has been visited.
+ - genDFSMaze(): build a maze by using depth-first search
+
+Cell.java: the maze is made up of individual pieces of a grid represented by a cell. Each cell has a boolean for each of the possible walls it can have in any direction. Keep
+track of whether the cell has been visited by coloring it.
