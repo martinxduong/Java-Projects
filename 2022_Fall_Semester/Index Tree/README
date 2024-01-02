@@ -1,0 +1,8 @@
+IndexNode.java IndexTree.java README
+
+Objective: For this project, the objective is to create an index for the complete works of William Shakespeare. An IndexTree is a special type of Binary Search Tree.
+The IndexTree does more than a standard tree as it is used to build an index of a file. THe index will be similar to an index of the end of a textbook where each topic
+is listed alphabetically. Since a .txt file does not have traditional pages, the index will use the line numbers. The index will be of all the words in the file.
+To do this, the IndexTree is made of of special IndexNodes, each IndexNode stores a word, the count of occurences of the word, and all the lines that word has appeared.
+Nodes in the tree are stored by the String and the IndexTree objective stores an index of all the words and displays the index by performing an inorder traversal of the 
+tree.
